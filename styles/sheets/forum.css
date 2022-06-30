@@ -1,7 +1,11 @@
 body {
   background: url('../../images/backgrounds/forum.png');
+
+  height: 100vh;
+
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .forum-form {
@@ -15,8 +19,21 @@ body {
 
 .forum-form h2 {
   font-size: 3rem;
+  color: #fff;
 }
 
 .forum-form input {
   font-size: 1.6rem;
+  padding: 1.4rem;
+  margin-top: 1rem;
+  width: 60%;
+}
+
+.forum-form textarea {
+  font-size: 1.6rem;
+  padding: 1.4rem;
+  margin-top: 1rem;
+  width: 60%;
+  height: 1000px;
+  resize: none;
 }
