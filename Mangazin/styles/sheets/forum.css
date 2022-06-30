@@ -1,0 +1,22 @@
+body {
+  background: url('../../images/backgrounds/forum.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.forum-form {
+  margin: 4rem 10rem;
+  border-radius: 55px;
+  background: rgba(101, 101, 101, 0.7);
+  padding: 10px;
+  text-align: center;
+  max-width: 450px;
+}
+
+.forum-form h2 {
+  font-size: 3rem;
+}
+
+.forum-form input {
+  font-size: 1.6rem;
+}

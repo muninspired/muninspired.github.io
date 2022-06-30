@@ -1,0 +1,35 @@
+header {
+  display: flex;
+  justify-content: center;
+  font-family: blue-screens;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+}
+
+header ul {
+  list-style: none;
+  display: inline-flex;
+  padding-top: 20px;
+}
+
+header ul li {
+  margin: 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #000;
+}
+
+header .selected {
+  text-decoration: underline;
+}
+
+header .home-link {
+  font-size: 3rem;
+  font-family: bleeding-cowboys;
+}
