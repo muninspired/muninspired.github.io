@@ -1,7 +1,9 @@
 header {
+  overflow: hidden;
+  padding: 10px;
   display: flex;
-  justify-content: center;
-  font-family: blue-screens;
+  width: 100%;
+  justify-content: space-around;
 }
 
 header a {
@@ -9,27 +11,53 @@ header a {
   color: #000;
 }
 
-header ul {
-  list-style: none;
-  display: inline-flex;
-  padding-top: 20px;
+header .logo {
+  font-size: xx-large;
+  display: flex;
+  justify-content: start;
+  font-family: bleeding-cowboys;
 }
 
-header ul li {
-  margin: 10px;
+header .center {
+  font-size: xx-large;
+  margin-top: 20px;
 }
 
-header ul li a {
-  text-decoration: none;
-  font-size: 2.5rem;
-  color: #000;
+header .center a {
+  padding: 10px;
+  font-family: blue-screens;
+  text-transform: uppercase;
 }
 
-header .selected {
+header .center a:hover {
   text-decoration: underline;
 }
 
-header .home-link {
-  font-size: 3rem;
-  font-family: bleeding-cowboys;
+@media screen and (min-width: 1600px) {
+  header a {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #000;
+  }
+
+  header {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  header .center {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .logo {
+    text-align: center;
+  }
 }

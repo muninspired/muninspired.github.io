@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: bleeding-cowboys;
+  src: url('../../fonts/Bleeding_Cowboys.ttf');
+}
+
+@font-face {
+  font-family: blue-screens;
+  src: url('../../fonts/TT-Bluescreens-Bold.ttf');
+}
+
+@font-face {
+  font-family: adomino;
+  src: url('../../fonts/adomino.ttf');
+}
+
+@font-face {
+  font-family: roboto;
+  src: url('../../fonts/Roboto-Light.ttf');
+}
