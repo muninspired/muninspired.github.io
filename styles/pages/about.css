@@ -1,0 +1,19 @@
+body {
+  background: url('../../images/backgrounds/about.png') no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.content p {
+  text-align: center;
+  font-family: roboto;
+  font-size: 26px;
+  font-weight: bold;
+}

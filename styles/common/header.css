@@ -33,6 +33,10 @@ header .center a:hover {
   text-decoration: underline;
 }
 
+.selected {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 1600px) {
   header a {
     font-size: 40px;
