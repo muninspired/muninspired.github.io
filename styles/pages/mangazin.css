@@ -147,6 +147,11 @@ header a {
   text-transform: uppercase;
 }
 
+.update-container .card a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .update-container .card img {
   transition: transform .2s;
   border-radius: 10px;
