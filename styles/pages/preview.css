@@ -31,12 +31,14 @@ header a {
   width: 150px;
   height: 200px;
   margin-bottom: 10px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-#main-image img {
+.main-image img {
   width: 450px;
   height: 640px;
+  border-radius: 10px;
 }
 
 .info-container {
